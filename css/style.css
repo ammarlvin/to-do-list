@@ -1,0 +1,50 @@
+body{
+    background-color:lightblue;
+}
+h1{
+    background: skyblue;
+    color: snow;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background: lightskyblue;
+    height: 40px;
+    line-height:40px;
+    color:blue;
+}
+li:nth-child(2n){
+    background: lightblue;
+}
+input{
+    color: cornflowerblue;
+    font-size: 18px;
+    background-color: lightblue;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+input:focus{
+    background: cornflowerblue;
+    border: 3px solid lightskyblue;
+    outline: none;
+}
+#container{
+    background-color: lightblue;
+    width: 360px;
+    margin: 100px auto;
+    border: 2px solid darkgray;
+    box-shadow: 0 0 3 red;
+}
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
